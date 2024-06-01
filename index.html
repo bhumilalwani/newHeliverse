@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+         /* Apply selection styles globally */
+    ::selection {
+      color: white;
+      background-color: #6219C0;
+    }
+    
+    /* For Firefox */
+    ::-moz-selection {
+      color: white;
+      background-color: #6219C0;
+    }
+        html,body{
+            width:100vw;
+            height:100%;
+            background:#0E0F1A;
+            overflow-x: hidden;       
+        }
+        #root{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="root" className='bg-red-800'></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
